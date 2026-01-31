@@ -1,0 +1,15 @@
+# Dependencies
+node_modules/
+
+# Playwright Test Results
+test-results/
+playwright-report/
+playwright/.cache/
+
+# Authentication State
+playwright/.auth/
+*.auth.json
+
+# Environment Variables
+.env
+.env.local

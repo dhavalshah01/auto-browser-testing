@@ -1,0 +1,31 @@
+{
+  "name": "auto-browser-testing",
+  "version": "1.0.0",
+  "description": "This guide provides a step-by-step process for pushing your local repository to GitHub using Visual Studio Code.",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:report": "playwright show-report",
+    "test:stock": "playwright test microsoft-stock.spec.js",
+    "test:stock:ui": "playwright test microsoft-stock.spec.js --ui",
+    "test:stock:headed": "playwright test microsoft-stock.spec.js --headed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhavalshah01/auto-browser-testing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/dhavalshah01/auto-browser-testing/issues"
+  },
+  "homepage": "https://github.com/dhavalshah01/auto-browser-testing#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.58.1"
+  }
+}
